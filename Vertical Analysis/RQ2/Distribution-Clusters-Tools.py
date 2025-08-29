@@ -133,7 +133,7 @@ my_colors =  ['#ccda62','#e69191','#ffb84d','lavender','#bdff00','#ffec52','#f8e
 #purple', 'black', 'pink', 'aqua'
 
 my_explode = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
-plt.pie(Ratio, labels=my_labels, autopct='%1.1f%%', startangle=180, colors=my_colors,explode=my_explode,  textprops={'fontsize': 16},wedgeprops= {"edgecolor":"black", 'linewidth': 1.7})
+plt.pie(Ratio, labels=my_labels, autopct='%1.1f%%', startangle=180, colors=my_colors,explode=my_explode,  textprops={'fontsize': 13},wedgeprops= {"edgecolor":"black", 'linewidth': 1.7})
 
 
 

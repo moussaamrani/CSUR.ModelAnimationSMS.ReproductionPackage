@@ -107,7 +107,7 @@ Total= B+ FSM+ KERMETA+ OTHER+ PN+ REWRITE+ VARIOUS+ XTENDJAVA
 
 Ratio = [(FSM/Total)*100, (REWRITE/Total)*100,(KERMETA/Total)*100,(PN/Total)*100,(XTENDJAVA/Total)*100,(B/Total)*100,(VARIOUS/Total)*100,(OTHER/Total)*100]
 
-plt.pie(Ratio, labels=my_labels, autopct='%1.1f%%', startangle=180, colors=my_colors,explode=my_explode,  textprops={'fontsize': 16},wedgeprops= {"edgecolor":"black", 'linewidth': 1.7})
+plt.pie(Ratio, labels=my_labels, autopct='%1.1f%%', startangle=180, colors=my_colors,explode=my_explode,  textprops={'fontsize': 14},wedgeprops= {"edgecolor":"black", 'linewidth': 1.7})
 
 # Capture each of the return elements.
 #plt.title('Papers distribution: Venue')

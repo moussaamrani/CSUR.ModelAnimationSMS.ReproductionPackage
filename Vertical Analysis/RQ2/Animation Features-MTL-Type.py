@@ -100,7 +100,7 @@ my_colors = ['#9f6dd1','#e69191','#ffb84d','#edc9ff','#dccae6','#ffec52','#00ff0
 #purple', 'black', 'pink', 'aqua'
 
 my_explode = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
-plt.pie(Rate, labels=my_labels, autopct='%1.1f%%', startangle=180, colors=my_colors,explode=my_explode,  textprops={'fontsize': 20},wedgeprops= {"edgecolor":"black", 'linewidth': 1.7})
+plt.pie(Rate, labels=my_labels, autopct='%1.1f%%', startangle=180, colors=my_colors,explode=my_explode,  textprops={'fontsize': 16},wedgeprops= {"edgecolor":"black", 'linewidth': 1.7})
 
 
 
@@ -112,7 +112,7 @@ plt.pie(Rate, labels=my_labels, autopct='%1.1f%%', startangle=180, colors=my_col
 plt.title('')
 plt.axis('equal')
 
-plt.legend(my_labels, bbox_to_anchor = (1., .95),  title="MTL Type")
+#plt.legend(my_labels, bbox_to_anchor = (1., .95),  title="MTL Type")
 
 
 plt.savefig("Animation Features-MTL-Type.pdf",dpi=600)
